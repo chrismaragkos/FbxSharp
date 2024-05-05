@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>false</ImplicitUsings>
+        <Nullable>disable</Nullable>
+        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <DefaultItemExcludes>
+            FbxCli/**;
+            fbxcppcli/**;
+            fbxcppcommon/**;
+            FbxCppTests/**;
+            FbxPrint/**;
+            FbxSharp/**;
+            FbxSharpTests/**;
+            TestCaseGenerator/**;
+            bin/**;
+            obj/**;
+            instance/**;
+            packages/**;
+            tmp/**;
+        </DefaultItemExcludes>
+    </PropertyGroup>
+
+</Project>
